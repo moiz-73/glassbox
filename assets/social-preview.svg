@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-labelledby="socialTitle socialDesc">
+  <title id="socialTitle">glassbox — turn black boxes into glass boxes</title>
+  <desc id="socialDesc">Social card with the glassbox wordmark, tagline, three keyword chips, and the line twelve agent skills, MIT.</desc>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5EE6D0" stop-opacity="0.13"/>
+      <stop offset="55%" stop-color="#5EE6D0" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#5EE6D0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5EE6D0" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#5EE6D0" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#7AA2FF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5EE6D0" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#5EE6D0" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#7AA2FF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#1A2130"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="640" fill="#0B0E14"/>
+  <rect width="1280" height="640" fill="url(#dots)" opacity="0.5"/>
+  <ellipse cx="640" cy="300" rx="560" ry="260" fill="url(#glow)"/>
+  <rect x="24" y="24" width="1232" height="592" rx="24" fill="none" stroke="#1A2130" stroke-width="1.5"/>
+
+  <rect x="602" y="112" width="76" height="76" rx="15" fill="#11151F" stroke="#2A3142" stroke-width="1.5"/>
+  <path d="M602 137 H678 M602 162 H678 M627 112 V188 M652 112 V188" stroke="#1E2534" stroke-width="1"/>
+  <path d="M584 152 L696 148" stroke="url(#beam)" stroke-width="3" stroke-linecap="round"/>
+  <rect x="602" y="112" width="76" height="76" rx="15" fill="none" stroke="#5EE6D0" stroke-opacity="0.45" stroke-width="1.5"/>
+
+  <g font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" text-anchor="middle">
+    <text x="640" y="298" font-size="90" font-weight="600" letter-spacing="-1.5" fill="#E8ECF1">glassbox</text>
+    <text x="640" y="344" font-size="23" fill="#8A94A6">Turn black boxes into glass boxes.</text>
+  </g>
+
+  <g>
+    <rect x="316" y="406" width="220" height="48" rx="24" fill="#11151F" stroke="#2A3142" stroke-width="1.5"/>
+    <rect x="560" y="406" width="194" height="48" rx="24" fill="#11151F" stroke="#2A3142" stroke-width="1.5"/>
+    <rect x="778" y="406" width="186" height="48" rx="24" fill="#11151F" stroke="#2A3142" stroke-width="1.5"/>
+    <g font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#E8ECF1" text-anchor="middle">
+      <text x="426" y="436">protocol cartography</text>
+      <text x="657" y="436">evidence protocol</text>
+      <text x="871" y="436">durable autonomy</text>
+    </g>
+  </g>
+
+  <path d="M560 520 H720" stroke="url(#rule)" stroke-width="1.5"/>
+  <text x="640" y="568" text-anchor="middle" font-family="ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="14" letter-spacing="2.4" fill="#8A94A6">12 agent skills · MIT</text>
+</svg>

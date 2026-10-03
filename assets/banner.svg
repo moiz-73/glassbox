@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-labelledby="bannerTitle bannerDesc">
+  <title id="bannerTitle">glassbox</title>
+  <desc id="bannerDesc">The glassbox wordmark and tagline beside a small glass box mark with a beam of light passing through it.</desc>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5EE6D0" stop-opacity="0.14"/>
+      <stop offset="55%" stop-color="#5EE6D0" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#5EE6D0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5EE6D0" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#5EE6D0" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#7AA2FF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#1A2130"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="280" fill="#0B0E14"/>
+  <rect width="1200" height="280" fill="url(#dots)" opacity="0.55"/>
+  <ellipse cx="640" cy="140" rx="540" ry="170" fill="url(#glow)"/>
+
+  <rect x="76" y="92" width="96" height="96" rx="18" fill="#11151F" stroke="#2A3142" stroke-width="1.5"/>
+  <path d="M76 124 H172 M76 156 H172 M108 92 V188 M140 92 V188" stroke="#1E2534" stroke-width="1"/>
+  <path d="M56 134 L196 146" stroke="url(#beam)" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M68 128 L184 138" stroke="#5EE6D0" stroke-width="1" stroke-opacity="0.35" stroke-linecap="round"/>
+  <rect x="76" y="92" width="96" height="96" rx="18" fill="none" stroke="#5EE6D0" stroke-opacity="0.45" stroke-width="1.5"/>
+
+  <text x="232" y="139" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="58" font-weight="600" letter-spacing="-1.2" fill="#E8ECF1">glassbox</text>
+  <text x="234" y="177" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" fill="#8A94A6">Turn black boxes into glass boxes.</text>
+  <text x="234" y="214" font-family="ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="13.5" letter-spacing="2.2" fill="#5EE6D0">perceive → model → execute → verify → evolve</text>
+  <rect x="234" y="228" width="72" height="2" rx="1" fill="#7AA2FF" opacity="0.6"/>
+</svg>

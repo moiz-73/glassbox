@@ -1,0 +1,40 @@
+name: Field note submission
+description: Share an anonymized, method-focused case study.
+title: "[field note] "
+labels: ["field-note"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Field notes live in docs/field-notes/. Read CONTRIBUTING.md for the
+        shape and the sanitization rules. A field note must teach a method,
+        not tell a war story — and it must not identify a system, a person,
+        or a machine.
+  - type: textarea
+    id: context
+    attributes:
+      label: Anonymized context
+      description: The class of system and engagement, with every specific replaced by its class. No names, no real addresses.
+    validations:
+      required: true
+  - type: textarea
+    id: skills-used
+    attributes:
+      label: Which skills were used
+      description: Name the skills from skills/ and which phase of the loop each covered.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence-trail
+    attributes:
+      label: Evidence trail summary
+      description: The sanitized sequence of commands and observations that grounded the work.
+    validations:
+      required: true
+  - type: textarea
+    id: surprise
+    attributes:
+      label: What surprised you
+      description: The observation that changed your model, and what you would do differently next run.
+    validations:
+      required: true

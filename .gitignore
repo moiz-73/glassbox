@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local environment files
+.env*
+*.local
+
+# Build output
+dist/
+tmp/
+
+# Local tool state
+.glassbox/
+.claude/
+.cursor/

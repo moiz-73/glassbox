@@ -1,0 +1,59 @@
+name: New skill proposal
+description: Propose a new skill for the glassbox pack.
+title: "[skill] "
+labels: ["new-skill"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for proposing a skill. Read CONTRIBUTING.md and docs/ETHICS.md
+        first — the authoring contract and the boundary rules govern what can
+        ship. This form is a scoping document, not the skill itself.
+  - type: input
+    id: skill-name
+    attributes:
+      label: Skill name, kebab-case
+      description: Lowercase words separated by hyphens. It becomes the directory name under skills/.
+      placeholder: capture-replay
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem it solves
+      description: Which failure mode does this skill prevent? Be concrete, and stay vendor-neutral.
+    validations:
+      required: true
+  - type: textarea
+    id: when-to-load
+    attributes:
+      label: When to load it
+      description: The triggers an agent should match, and the near-miss cases that should route elsewhere.
+    validations:
+      required: true
+  - type: textarea
+    id: method-outline
+    attributes:
+      label: Proposed method outline
+      description: The steps, exit gates, and decision table you intend to write.
+    validations:
+      required: true
+  - type: checkboxes
+    id: banned-content
+    attributes:
+      label: Banned-content checklist
+      description: Confirm each item before submitting. See CONTRIBUTING.md and docs/ETHICS.md.
+      options:
+        - label: A secret scan was run and no credentials, tokens, or personal data are included.
+          required: true
+        - label: No named targets and no target-specific operational detail are included.
+          required: true
+        - label: Nothing in this proposal depends on defeating or evading a protection surface.
+          required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: References planned
+      description: Which references/ files you will write, and which existing docs this builds on.
+    validations:
+      required: false

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Read the FAQ first
+    url: https://github.com/f2025408135-cyber/glassbox/blob/main/docs/FAQ.md
+    about: Common questions about the skills, the loop, and authorization scope.
+  - name: Read the contributing guide
+    url: https://github.com/f2025408135-cyber/glassbox/blob/main/CONTRIBUTING.md
+    about: The authoring contract, the review process, and what this project never accepts.
