@@ -13,9 +13,9 @@ human to press the button.
       project handle (`glassbox`) with the account's GitHub noreply address,
       via per-command `-c` flags; no personal identity enters the history.
 - [x] Two independent reviews complete; findings fixed or parked with rulings.
-- [ ] Repository pushed to the public remote.
+- [x] Repository pushed to the public remote.
 - [ ] skills.sh indexing visible after the push (`npx skills add` works).
-- [ ] GitHub description + topics set (see section 4).
+- [x] GitHub description + topics set (see section 4).
 - [ ] Social preview uploaded (export `assets/social-preview.svg` to a 1280×640
       PNG and upload in repository settings — GitHub accepts PNG/JPG).
 
