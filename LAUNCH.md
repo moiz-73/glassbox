@@ -14,7 +14,12 @@ human to press the button.
       via per-command `-c` flags; no personal identity enters the history.
 - [x] Two independent reviews complete; findings fixed or parked with rulings.
 - [x] Repository pushed to the public remote.
-- [ ] skills.sh indexing visible after the push (`npx skills add` works).
+- [x] Install path verified after the push (`npx skills add
+      f2025408135-cyber/glassbox` lists and installs all 12 skills).
+- [ ] skills.sh leaderboard registration: swap the README's static install
+      badge for `https://skills.sh/b/f2025408135-cyber/glassbox` once the
+      leaderboard registers the repository (the endpoint returns
+      "resource not found" until install telemetry aggregates).
 - [x] GitHub description + topics set (see section 4).
 - [ ] Social preview uploaded (export `assets/social-preview.svg` to a 1280×640
       PNG and upload in repository settings — GitHub accepts PNG/JPG).
@@ -111,7 +116,7 @@ uploaded. Squash-merge allowed; delete head branches on.
 - Do not launch in multiple big channels on the same day; stagger by 2–3 days
   and let each thread breathe.
 - Do not argue with hostile comments; answer once with facts, then move on.
-- Do not add growth-hack badges to the README; the skills.sh badge and CI
-  badge are the only ones.
+- Do not add growth-hack badges to the README; the install badge (skills.sh),
+  the CI badge, and the license badge are the only ones.
 - Do not name or compare specific systems in any launch material — the pack is
   deliberately target-neutral, and the comments will be much better for it.

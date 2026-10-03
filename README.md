@@ -6,7 +6,7 @@ Agent skills that teach any coding agent to reverse-engineer the systems you are
 authorized to work with — methodically, with evidence at every step, and with
 clear boundaries.
 
-[![skills.sh](https://skills.sh/b/f2025408135-cyber/glassbox)](https://skills.sh/f2025408135-cyber/glassbox)
+[![skills.sh install](https://img.shields.io/badge/skills.sh-npx%20skills%20add-black.svg)](https://github.com/f2025408135-cyber/glassbox#install)
 [![validate](https://github.com/f2025408135-cyber/glassbox/actions/workflows/validate.yml/badge.svg)](https://github.com/f2025408135-cyber/glassbox/actions/workflows/validate.yml)
 [![MIT](https://img.shields.io/badge/license-MIT-black.svg)](LICENSE)
 
